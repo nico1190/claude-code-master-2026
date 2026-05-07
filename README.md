@@ -13,7 +13,9 @@ short_description: Podcast + RAG chatbot sobre Claude Code 2026.
 
 > Aplicación tipo podcast-landing que combina un **Audio Overview** generado por NotebookLM con un **chatbot RAG** que responde preguntas sobre 10 artículos curados de Claude Code (mayo 2026), usando Gemini Free como motor.
 
-**Demo en vivo:** [`https://huggingface.co/spaces/<usuario>/claude-code-master-2026`](#) *(reemplazar tras deploy)*
+**Demo en vivo:** https://huggingface.co/spaces/Nico1190/claude-code-master-2026
+
+**Repositorio GitHub:** https://github.com/nico1190/claude-code-master-2026
 
 **Notebook NotebookLM (público):** https://notebooklm.google.com/notebook/d41b8b19-190a-44b2-8aa1-b40c32e98405
 
@@ -226,7 +228,7 @@ Detalle completo en [`claude_code_sources.json`](claude_code_sources.json).
 
 ```bash
 # clonar
-git clone https://github.com/<usuario>/claude-code-master-2026.git
+git clone https://github.com/nico1190/claude-code-master-2026.git
 cd claude-code-master-2026
 git lfs pull   # baja el audio
 
