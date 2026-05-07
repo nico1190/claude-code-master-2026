@@ -86,7 +86,7 @@ a:hover { text-decoration: underline; }
 /* ===== HERO ===== */
 .hero {
   display: grid;
-  grid-template-columns: minmax(380px, 480px) 1fr;
+  grid-template-columns: minmax(320px, 380px) 1fr;
   gap: 48px;
   max-width: 1200px;
   margin: 0 auto;
@@ -95,13 +95,13 @@ a:hover { text-decoration: underline; }
 }
 .cover {
   position: relative;
-  aspect-ratio: 2752 / 1536;
+  aspect-ratio: 1 / 1;
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
   box-shadow:
     var(--shadow),
-    0 0 80px rgba(217, 119, 87, 0.18);
+    0 0 80px rgba(217, 119, 87, 0.22);
   background: var(--bg-panel);
 }
 .cover img {
@@ -701,7 +701,7 @@ a:hover { text-decoration: underline; }
 <header class="hero">
   <div class="cover">
     <span class="ep-tag">Episode 01</span>
-    <img src="cover.png" alt="Stack tecnologico de Nico - cover del podcast" loading="eager" />
+    <img src="cover.jpeg" alt="Las mejores practicas de Claude - cover del podcast" loading="eager" />
   </div>
   <div class="hero-info">
     <span class="eyebrow">Audio Overview · NotebookLM Deep Dive</span>
