@@ -1,12 +1,12 @@
 ---
 title: Claude Code Master 2026
 emoji: 🎙️
-colorFrom: orange
+colorFrom: yellow
 colorTo: purple
 sdk: static
 pinned: false
 license: mit
-short_description: Podcast + RAG chatbot sobre Claude Code (10 articulos curados, mayo 2026), con Gemini Free.
+short_description: Podcast + RAG chatbot sobre Claude Code 2026.
 ---
 
 # Claude Code Master 2026 — Podcast + Chatbot
