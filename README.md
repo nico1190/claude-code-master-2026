@@ -227,16 +227,15 @@ Detalle completo en [`claude_code_sources.json`](claude_code_sources.json).
 ## Cómo correrlo localmente
 
 ```bash
-# clonar
+# clonar (incluyendo el audio via LFS)
 git clone https://github.com/nico1190/claude-code-master-2026.git
 cd claude-code-master-2026
-git lfs pull   # baja el audio
+git lfs pull
 
-# servir el HTML (necesario porque <audio> con file:// puede tener restricciones)
+# servir el HTML (necesario porque <audio> con file:// tiene restricciones)
 python -m http.server 8765
 
-# abrir
-# http://localhost:8765/claude_code_chatbot.html
+# abrir http://localhost:8765/index.html
 ```
 
 Al cargar, te va a pedir tu API key de Google AI Studio (gratis, sin tarjeta).
@@ -246,11 +245,16 @@ Al cargar, te va a pedir tu API key de Google AI Studio (gratis, sin tarjeta).
 Si quieren actualizar la base de conocimiento con artículos más nuevos:
 
 ```bash
+pip install -r requirements.txt
+# (opcional para screenshots) python -m playwright install chromium
+
 # 1. editar claude_code_sources.json (las 10 URLs + metadata)
 # 2. re-bajar contenido
 python download_articles.py
 # 3. reconstruir el HTML embebido
 python build_chatbot.py
+# 4. regenerar screenshots (opcional)
+python take_screenshots.py
 ```
 
 ---

@@ -1,0 +1,7 @@
+# Build pipeline (download_articles.py + build_chatbot.py)
+requests>=2.31
+trafilatura>=2.0
+
+# Screenshots regen (take_screenshots.py) - opcional
+# pip install playwright && python -m playwright install chromium
+playwright>=1.40
