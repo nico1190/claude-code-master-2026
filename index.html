@@ -85,17 +85,16 @@ a:hover { text-decoration: underline; }
 
 /* ===== HERO ===== */
 .hero {
-  display: grid;
-  grid-template-columns: minmax(280px, 380px) 1fr;
-  gap: 56px;
-  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 64px 32px 56px;
-  align-items: center;
+  padding: 56px 32px 48px;
 }
 .cover {
   position: relative;
-  aspect-ratio: 1536 / 2752;
+  aspect-ratio: 2752 / 1536;
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
@@ -112,7 +111,7 @@ a:hover { text-decoration: underline; }
 }
 .cover .ep-tag {
   position: absolute; top: 14px; left: 14px;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(8px);
   color: white;
   font-size: 10px;
@@ -123,6 +122,7 @@ a:hover { text-decoration: underline; }
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.15);
   z-index: 2;
+  display: none; /* infographic has its own title at top */
 }
 
 .hero-info { max-width: 640px; }
@@ -672,8 +672,7 @@ a:hover { text-decoration: underline; }
 
 /* ===== Responsive ===== */
 @media (max-width: 880px) {
-  .hero { grid-template-columns: 1fr; padding: 48px 20px 36px; gap: 36px; }
-  .cover { max-width: 320px; margin: 0 auto; }
+  .hero { padding: 36px 20px 28px; gap: 24px; }
   .chat-shell { grid-template-columns: 1fr; height: auto; min-height: 0; }
   .chat-sidebar { display: none; }
   .messages { min-height: 50vh; }
