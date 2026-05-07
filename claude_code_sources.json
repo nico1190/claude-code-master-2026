@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Claude Code Master 2026",
+    "description": "10 articulos curados sobre Claude Code (mayo 2026) - prompting, planning, skills, .md, MCP, novedades",
+    "curated_date": "2026-05-06",
+    "notebook_id": "d41b8b19-190a-44b2-8aa1-b40c32e98405",
+    "notebook_url": "https://notebooklm.google.com/notebook/d41b8b19-190a-44b2-8aa1-b40c32e98405"
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Best practices for Claude Code",
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "author": "Anthropic",
+      "publisher": "Anthropic Docs",
+      "date": "2026 (continuously updated)",
+      "official": true,
+      "topics": ["prompting", "planning", "mcp", "skills", "claude_md", "subagents", "hooks", "plugins"],
+      "summary": "Guia oficial canonica con todos los patrones probados internamente: explore-plan-implement, CLAUDE.md tactico, permission modes, parallel sessions, fan-out, auto mode."
+    },
+    {
+      "id": 2,
+      "title": "Equipping agents for the real world with Agent Skills",
+      "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "author": "Anthropic Engineering",
+      "publisher": "Anthropic",
+      "date": "2025-10-16",
+      "official": true,
+      "topics": ["skills", "agents"],
+      "summary": "Anuncio y diseno conceptual de Agent Skills: carpetas con SKILL.md que el modelo descubre y carga on-demand."
+    },
+    {
+      "id": 3,
+      "title": "Building agents with the Claude Agent SDK",
+      "url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
+      "author": "Anthropic Engineering",
+      "publisher": "Anthropic",
+      "date": "2025-09-29",
+      "official": true,
+      "topics": ["agent_sdk", "skills", "novedades"],
+      "summary": "Guia oficial del Claude Agent SDK (renombrado desde Claude Code SDK), con best practices para construir agentes propios."
+    },
+    {
+      "id": 4,
+      "title": "How Claude remembers your project (Memory)",
+      "url": "https://code.claude.com/docs/en/memory",
+      "author": "Anthropic",
+      "publisher": "Anthropic Docs",
+      "date": "2026 (continuously updated)",
+      "official": true,
+      "topics": ["claude_md", "memoria", "auto_memory", "rules", "subagent_memory"],
+      "summary": "Doc canonico del sistema de memoria: CLAUDE.md vs auto memory, .claude/rules/, path-scoped rules, MEMORY.md, troubleshooting."
+    },
+    {
+      "id": 5,
+      "title": "Claude Code Changelog (oficial)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "author": "Anthropic",
+      "publisher": "Anthropic Docs",
+      "date": "Updated continuously (last entry 2026-05-06)",
+      "official": true,
+      "topics": ["novedades", "changelog", "releases"],
+      "summary": "Changelog oficial version por version (v2.1.x). Source of truth para que cambia mes a mes."
+    },
+    {
+      "id": 6,
+      "title": "The Complete Claude Code Guide (2026): Planning, Context Engineering, and High-Leverage Development",
+      "url": "https://www.generative.inc/the-complete-claude-code-guide-2026-planning-context-engineering-and-high-leverage-development",
+      "author": "Stan Sedberry",
+      "publisher": "Generative.inc",
+      "date": "2026-03-19",
+      "official": false,
+      "topics": ["planning", "context_engineering", "prompting", "scaling"],
+      "summary": "Guia comunitaria solida que sintetiza: setup, context structuring, plan mode workflows, cost optimization, scaling."
+    },
+    {
+      "id": 7,
+      "title": "50 Claude Code Tips and Best Practices For Daily Use",
+      "url": "https://www.builder.io/blog/claude-code-tips-best-practices",
+      "author": "Vishwas Gopinath",
+      "publisher": "Builder.io",
+      "date": "2026-03-20",
+      "official": false,
+      "topics": ["prompting", "planning", "tips_diarios", "productividad"],
+      "summary": "50 tacticas concretas y reproducibles para uso diario - la mayoria son micro-prompts y ajustes que se aplican en segundos."
+    },
+    {
+      "id": 8,
+      "title": "How Claude Code Builds a System Prompt",
+      "url": "https://www.dbreunig.com/2026/04/04/how-claude-code-builds-a-system-prompt.html",
+      "author": "Drew Breunig",
+      "publisher": "dbreunig.com",
+      "date": "2026-04-04",
+      "official": false,
+      "topics": ["prompting", "internals", "system_prompt"],
+      "summary": "Analisis tecnico profundo de como Claude Code ensambla dinamicamente su system prompt - util para entender que tunear y que no."
+    },
+    {
+      "id": 9,
+      "title": "Claude Code & Agent Memory: Best Practices for 2026",
+      "url": "https://orchestrator.dev/blog/2026-04-06--claude-code-agent-memory-2026/",
+      "author": "Orchestrator.dev",
+      "publisher": "orchestrator.dev",
+      "date": "2026-04-06",
+      "official": false,
+      "topics": ["claude_md", "memoria", "subagent_memory", "memory_tool", "novedades"],
+      "summary": "Cuatro capas de memoria, auto memory, Memory Tool para API agents, y subagent memory con frontmatter - cobertura comunitaria de la novedad de v2.1.33+."
+    },
+    {
+      "id": 10,
+      "title": "The Best Claude Code Plugins, Skills & MCP Servers I Use Every Day",
+      "url": "https://www.turbodocx.com/blog/best-claude-code-skills-plugins-mcp-servers",
+      "author": "Nicolas Fry",
+      "publisher": "TurboDocx",
+      "date": "2026-03-11",
+      "official": false,
+      "topics": ["skills", "mcp", "plugins", "stack_recomendado"],
+      "summary": "Stack practico de 7 plugins/skills/MCP servers de uso diario, con cuando usar cada uno y como combinarlos."
+    }
+  ]
+}
