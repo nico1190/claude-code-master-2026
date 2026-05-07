@@ -24,27 +24,27 @@ short_description: Podcast + RAG chatbot sobre Claude Code (10 articulos curados
 ### 1. Hero con Audio Overview
 La página arranca con un reproductor del audio de NotebookLM (~27 min) y los datos del episodio.
 
-![Hero](screenshots/01-hero.png)
+![Hero](https://raw.githubusercontent.com/nico1190/claude-code-master-2026/main/screenshots/01-hero.png)
 
 ### 2. Tarjetas de invitación al chat
 Después del audio, 6 tarjetas pre-cargadas funcionan como entry points al chatbot.
 
-![Invite](screenshots/02-invite-cards.png)
+![Invite](https://raw.githubusercontent.com/nico1190/claude-code-master-2026/main/screenshots/02-invite-cards.png)
 
 ### 3. Chat embebido con sidebar de artículos
 Sidebar izquierda con filtro por 25 tópicos + lista de los 10 artículos. Main panel con streaming + render markdown + citas.
 
-![Chat](screenshots/03-chat.png)
+![Chat](https://raw.githubusercontent.com/nico1190/claude-code-master-2026/main/screenshots/03-chat.png)
 
 ### 4. Sección de recursos del notebook
 Links directos a los 4 artifacts generados en NotebookLM (Audio, Mind Map, FAQ, Briefing).
 
-![Resources](screenshots/04-resources.png)
+![Resources](https://raw.githubusercontent.com/nico1190/claude-code-master-2026/main/screenshots/04-resources.png)
 
 ### 5. Modal para configurar la API key
 Cualquiera puede traer su propia key gratis de Google AI Studio.
 
-![API Key Modal](screenshots/05-api-key-modal.png)
+![API Key Modal](https://raw.githubusercontent.com/nico1190/claude-code-master-2026/main/screenshots/05-api-key-modal.png)
 
 ---
 
