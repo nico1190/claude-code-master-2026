@@ -11,7 +11,7 @@ from playwright.async_api import async_playwright
 
 REPO_DIR = Path("C:/Users/nico1/OneDrive/Escritorio/claude-code-master-2026")
 SHOTS = REPO_DIR / "screenshots"
-URL = "http://localhost:8765/claude_code_chatbot.html"
+URL = "http://localhost:8765/index.html"
 
 
 async def main():
